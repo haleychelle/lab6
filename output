@@ -1,0 +1,36 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T10:42:14.406Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a277b393173eec21688511d',
+  username: 't',
+  msg: 'User Updated.',
+  color: 'red' }
+/ Route if user
+[0mGET / [36m304 [0m15.020 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m4.297 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m7.757 ms - 468[0m
+[0mGET /user/profile [36m304 [0m15.291 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.904 ms - 1968[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab6/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab6/auth/app.js:69:7
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab6/auth/app.js:58:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab6/auth/node_modules/express/lib/router/index.js:330:12)
